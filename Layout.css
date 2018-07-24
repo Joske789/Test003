@@ -1,0 +1,28 @@
+body {
+  background-color:#D1D1D1;
+}
+  h1 , p { 
+  font-family:"Arial", "Helvetica", "Sans-serif";
+  text-indent: 10px;
+  }
+
+
+li {
+  /* lijst naast elkaar ipv onder elkaar met bullets en 20 pixels tussen*/ 
+  
+  display:inline;
+  margin-left:20px;
+  }
+
+a {
+  /* maakt alle ankers (links) wit - en decoration laat de standaard streep eronder verdwijnen */ 
+  color:#ffffffabove;
+  text-decoration:none;
+}
+
+a:hover {
+  /* als je er over gaat met je muis krijgt het een orange kleur */ 
+  color:#ff8800;
+}
+
+
